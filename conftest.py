@@ -11,6 +11,7 @@ def pytest_addoption(parser):
     # Можно задать значение параметра по умолчанию,
     # чтобы в командной строке не обязательно было указывать параметр --browser_name, например, так:
     parser.addoption('--browser_name', action='store', default="chrome", help="Choose browser: chrome or firefox")
+    parser.addoption('--language', action='store', default="en", help="Choose language: en or de")
 
 
 # Запуск браузера(для каждой функции)
