@@ -20,7 +20,7 @@ def browser(request):
     browser_name = request.config.getoption("browser_name")  # получаем параметр командной строки browser_name
     browser = None
     if browser_name == "chrome":
-        print("\nstart Сhrome browser for test..")
+        print("\nstart Chrome browser for test..")
         browser = webdriver.Chrome()
     elif browser_name == "firefox":
         print("\nstart Firefox browser for test..")
