@@ -12,3 +12,4 @@ class LoginPageLocators():
     REGISTER_EMAIL_FORM = (By.ID, "id_registration-email")
     REGISTER_PASSWORD_FORM = (By.ID, "id_registration-password1")
     REGISTER_SECOND_PASSWORD_FORM = (By.ID, "id_registration-password2")
+    #DSFDSF
