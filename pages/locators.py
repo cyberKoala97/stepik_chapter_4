@@ -4,6 +4,7 @@ from selenium.webdriver.common.by import By
 class MainPageLocators():
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
 
+
 class LoginPageLocators():
     LOGIN_URL = "http://selenium1py.pythonanywhere.com/ru/accounts/login/"
     LOGIN_SIGN_IN_FORM = (By.ID, "id_login-username")
@@ -19,3 +20,4 @@ class ProductPageLocators:
     PRODUCT_PRICE = (By.CSS_SELECTOR, ".product_main p.price_color")
     MESSAGE_ABOUT_ADDING = (By.CSS_SELECTOR, "div.alertinner strong")
     MESSAGE_BASKET_TOTAL = (By.CSS_SELECTOR, ".alert-info .alertinner strong")
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, "")
