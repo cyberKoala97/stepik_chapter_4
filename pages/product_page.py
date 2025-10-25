@@ -17,7 +17,7 @@ class ProductPage(BasePage):
         product_name = self.browser.find_element(*ProductPageLocators.PRODUCT_NAME).text
         message = self.browser.find_element(*ProductPageLocators.MESSAGE_ABOUT_ADDING).text
         # Проверяем, что название товара присутствует в сообщении о добавлении
-        assert product_name in message, "No product name in the message"
+        assert product_name == message, "No product name in the message"
 
     def should_be_message_basket_total(self):
         # Сначала проверяем, что элементы присутствуют на странице
