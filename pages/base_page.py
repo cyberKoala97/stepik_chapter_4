@@ -1,6 +1,6 @@
 import math
 
-from pages.locators import BasePageLocators
+from .locators import BasePageLocators
 
 from selenium.common import NoSuchElementException
 from selenium.common.exceptions import NoAlertPresentException, TimeoutException
